@@ -6,7 +6,6 @@
 }
 
 :root {
-
     font-size: 62.5%;
 
     --background-primary: #F4F5FB;
@@ -22,6 +21,6 @@
     --border-hover: #B9C2D0;
 }
 
-body{
+body {
     font-size: 1.6rem;
 }
