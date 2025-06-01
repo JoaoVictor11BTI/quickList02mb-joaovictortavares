@@ -141,3 +141,26 @@ main {
 .List .item label {
     cursor: pointer;
 }
+
+.List .item:has(input:checked) .custom-checkbox {
+    background: var(--color-brand);
+    border: 1px solid var(--color-brand);
+    transition: background 0.2s ease;
+}
+
+.List .item:has(input:checked) label {
+    text-decoration: line-through;
+}
+
+.List .item button{
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.List .item button img{
+    width: 1.6rem;
+    opacity: .7;
+}
