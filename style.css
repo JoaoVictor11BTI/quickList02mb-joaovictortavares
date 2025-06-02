@@ -180,6 +180,23 @@ main {
     transition: opacity .4s ease, transform .4s ease;
 }
 
+.warning div{
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+.warning i{
+    font-size: 2rem;
+}
+
+.warning button{
+    border: none;
+    background: none;
+    color: var(--always-white);
+    cursor: pointer;
+}
+
 .hide-warning{
     opacity: 0;
     transform: translateY(-10px);
